@@ -1,7 +1,7 @@
 var request = require('request');
 var cheerio = require('cheerio');
 
-var baseURL = 'https://cors-anywhere.herokuapp.com/https://images.google.com/search?tbm=isch&q=';
+var baseURL = 'https://images.google.com/search?tbm=isch&q=';
 
 function gis(opts, done) {
   var searchTerm;
